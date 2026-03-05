@@ -25,3 +25,11 @@ Vision Activation: The PC triggers YOLO11 to find the "person" in the live video
 Tracking Logic: The PC calculates the bounding box coordinates of the person and computes steering/throttle values using a Proportional (P) controller.
 
 Execution: The PC sends raw motor speeds to the Raspberry Pi over the local network to drive the robot toward the target.
+
+# Current Achievements/Next steps
+
+✅ Audio integration: Hearing, speaking and communicating with API AI
+✅ Video and human/object recognition with YOLO
+🔜 Model to actually view environment and talk about it (probably we could use gemini api).
+❌ Raspberry pi and actual robot and motors.
+❌ Audio + Video at the same time, so it can obey commands with either audio or video, like hand movements.
