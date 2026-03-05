@@ -11,7 +11,7 @@ This project aims to build a smart, responsive 4-wheeled robot capable of unders
 
 Instead of relying on expensive, heavy hardware or massive end-to-end foundation models on the robot itself, this project uses a distributed architecture:
 
-The Brain (Local PC): Handles the heavy lifting. It uses a fast, local LLM (gpt-oss-120b) to parse voice commands into actionable JSON data, and runs a lightweight vision model (YOLO11 Nano) to track targets visually.
+The Brain (Local PC): Handles the heavy lifting. It uses a fast, LLM (gpt-oss-120b) to parse voice commands into actionable JSON data, and runs a lightweight vision model (YOLO11 Nano) to track targets visually.
 
 The Body (Raspberry Pi): Rides on the robot chassis. It acts as the nervous system, streaming camera feed to the PC and listening over Wi-Fi for simple, direct motor commands to drive the wheels.
 
