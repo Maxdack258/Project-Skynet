@@ -1,1 +1,2 @@
-
+# Brief description
+So this part of the repo is all about the model´s audio, hearing with whisper, speaking with qwen 3 tts locally downloaded, and finally sending info to gpt-oss-120b which sends back text which is reproduced using pipeline processing for a fluid output of audio. Tests have been great, and now we have audio and video, but I still need a model so it can actually visualize things, perhaps use gemini api for this? and live view or something?
